@@ -1,0 +1,16 @@
+{
+  "gallery": [
+    {
+      "image-name": "image-gallery-milkbottles.jpg"
+    },
+    {
+      "image-name": "image-gallery-orange.jpg"
+    },
+    {
+      "image-name": "image-gallery-cone.jpg"
+    },
+    {
+      "image-name": "image-gallery-sugar-cubes.jpg"
+    }
+  ]
+}

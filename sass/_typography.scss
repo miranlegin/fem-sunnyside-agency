@@ -1,0 +1,188 @@
+.hamburger {
+  @media (min-width: $breakpoint1) {
+    display: none;
+  }
+}
+
+.menu {
+  a {
+    display: inline-block;
+    color: var(--grayish-blue-700);
+    text-decoration: none;
+    padding: 1rem;
+
+    @media (min-width: $breakpoint1) {
+      color: var(--white);
+    }
+
+    &[data-style='pill'] {
+      font-family: var(--ff-accent);
+      background-color: var(--yellow);
+      color: var(--desaturated-blue);
+      text-transform: uppercase;
+      line-height: 1.5rem;
+      border-radius: 100vw;
+      padding-inline: 2rem;
+
+      @media (min-width: $breakpoint1) {
+        background-color: var(--white);
+      }
+
+      &:hover {
+        background-color: rgba(#fff, 0.25);
+        color: var(--white);
+      }
+    }
+  }
+
+  li {
+  }
+}
+
+h1 {
+  display: flex;
+  flex-direction: column;
+  row-gap: 1em;
+  font-weight: 900;
+  font-size: clamp(2.5rem, 4.5vw, 3.5rem);
+  font-family: var(--ff-accent);
+  letter-spacing: 0.175em;
+  color: var(--white);
+  text-transform: uppercase;
+  padding-inline: 1.5rem;
+
+  &::after {
+    content: url(../images/icon-arrow-down.svg);
+  }
+}
+
+h2 {
+  .dual & {
+    font-weight: 900;
+    font-size: 2rem;
+    font-family: var(--ff-accent);
+    margin-bottom: 1.5rem;
+    color: var(--desaturated-blue);
+  }
+
+  .single & {
+    font-weight: 900;
+    font-size: 1.85rem;
+    font-family: var(--ff-accent);
+    line-height: 1.5;
+    text-transform: capitalize;
+    margin-bottom: 1em;
+  }
+
+  .testimonials & {
+    font-weight: 700;
+    font-size: var(--fs-base);
+    font-family: var(--ff-accent);
+    color: var(--grayish-blue-400);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+  }
+}
+
+p {
+  font-weight: 600;
+  line-height: 1.5;
+
+  .dual & {
+    color: var(--grayish-blue-700);
+    margin-bottom: 2rem;
+  }
+
+  .single & {
+    font-size: 1.0625rem;
+    letter-spacing: -0.6px;
+  }
+}
+
+.read-more {
+  font-weight: 900;
+  font-size: 1rem;
+  font-family: var(--ff-accent);
+  color: #000;
+  letter-spacing: 1px;
+  text-decoration: none;
+  text-transform: uppercase;
+
+  span {
+    position: relative;
+    display: inline-block;
+    padding-inline: 0.5rem;
+
+    &::after {
+      content: '';
+      position: absolute;
+      left: 0;
+      z-index: -1;
+      width: 100%;
+      bottom: -0.1875rem;
+      height: 10px;
+      display: inline-block;
+      border-radius: 50vw;
+      opacity: 0.25;
+      transition: 0.25s ease-in;
+
+      [data-color='yellow'] & {
+        background-color: var(--yellow);
+      }
+
+      [data-color='red'] & {
+        background-color: var(--soft-red);
+      }
+    }
+  }
+
+  &:hover {
+    span {
+      &::after {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+.client {
+  &-image {
+    margin-bottom: 2rem;
+    margin-inline: auto;
+    border-radius: 50%;
+
+    @media (min-width: $breakpoint1) {
+      margin-bottom: 4rem;
+    }
+  }
+
+  &-testimonial {
+    margin-bottom: 2rem;
+    line-height: 1.5;
+    color: var(--grayish-blue-900);
+
+    @media (min-width: $breakpoint1) {
+      margin-bottom: 4rem;
+    }
+  }
+
+  &-name {
+    margin-bottom: 0.75rem;
+    font-weight: 900;
+    font-family: var(--ff-accent);
+  }
+
+  &-role {
+    font-size: var(--fs-100);
+    color: var(--grayish-blue-400);
+  }
+}
+
+footer {
+  ul {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+  }
+}

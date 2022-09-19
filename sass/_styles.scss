@@ -1,1 +1,27 @@
 // general styling
+body {
+  text-align: center;
+  font-size: var(--fs-base);
+  font-family: var(--ff-base);
+  line-height: 1.25;
+}
+
+:focus {
+  outline: 2px dashed var(--soft-red);
+}
+
+.skip-link {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  background-color: var(--white);
+  padding: 0.5rem;
+  translate: 0 -100%;
+  transition: 0.25s ease;
+}
+
+.skip-link:focus {
+  translate: 0;
+}

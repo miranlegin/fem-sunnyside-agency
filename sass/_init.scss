@@ -1,1 +1,31 @@
-// variables
+:root {
+  // colors
+
+  // primary
+
+  --soft-red: hsl(7, 99%, 70%);
+  --yellow: hsl(51, 100%, 49%);
+  --desaturated-cyan: hsl(167, 40%, 24%);
+  --dark-blue: hsl(198, 62%, 26%);
+  --moderate-cyan: hsl(168, 34%, 41%);
+  --fixed-cyan: hsl(167, 45%, 70%);
+
+  // neutral
+
+  --desaturated-blue: hsl(212, 27%, 19%);
+  --grayish-blue-900: hsl(213, 9%, 39%);
+  --grayish-blue-700: hsl(232, 10%, 55%);
+  --grayish-blue-400: hsl(210, 4%, 67%);
+  --white: hsl(0, 0%, 100%);
+
+  // typography
+
+  --fs-100: 0.875rem;
+  --fs-base: 1.125rem;
+
+  --ff-base: 'Barlow', sans-serif;
+  --ff-accent: 'Fraunces', serif;
+}
+
+$breakpoint1: 47em;
+$site-width: 1110px;

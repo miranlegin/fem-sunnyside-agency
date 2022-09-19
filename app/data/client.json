@@ -1,0 +1,22 @@
+{
+  "client": [
+    {
+      "client-image": "images/image-emily.jpg",
+      "client-testimonial": "We put our trust in Sunnyside and they delivered, making sure our needs were met and deadlines were always hit.",
+      "client-name": "Emily R.",
+      "client-role": "Marketing Director"
+    },
+    {
+      "client-image": "images/image-thomas.jpg",
+      "client-testimonial": "Sunnyside’s enthusiasm coupled with their keen interest in our brand’s success made it a satisfying and enjoyable experience.",
+      "client-name": "Thomas S.",
+      "client-role": "Chief Operating Officer"
+    },
+    {
+      "client-image": "images/image-jennie.jpg",
+      "client-testimonial": "Incredible end result! Our sales increased over 400% when we worked with Sunnyside. Highly recommended!",
+      "client-name": "Jennie F.",
+      "client-role": "Business Owner"
+    }
+  ]
+}

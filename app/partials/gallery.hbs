@@ -1,0 +1,8 @@
+<section class="gallery">
+    {{#each gallery }}
+    <picture>
+        <source media="(min-width: 752px)" srcset="images/desktop/{{ image-name }}">
+        <img src="images/mobile/{{ image-name }}" alt="">
+    </picture>
+    {{/each }}
+</section>
