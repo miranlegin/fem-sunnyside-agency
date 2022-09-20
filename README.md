@@ -15,8 +15,6 @@ This is a solution to the [Fylo data storage component challenge on Frontend Men
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -33,8 +31,8 @@ Mobile version
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/miranlegin/fem-sunnyside-agency](https://github.com/miranlegin/fem-sunnyside-agency)
+- Live Site URL: [https://frontend-mentor-challenge11.netlify.app/](https://frontend-mentor-challenge11.netlify.app/)
 
 ## My process
 
@@ -46,6 +44,7 @@ Mobile version
 - CSS Grid
 - CSS min/clamp functions
 - Assemble.io
+- Picture with art direction
 
 ### What I learned
 
@@ -80,6 +79,7 @@ Like in the previous chapter things that can be improved are: setup project from
 
 - [hover: hover](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/hover) - MDN docs for hover:hover media query
 - [skip link](https://www.youtube.com/watch?v=VUR0I5mqq7I) - Video explaining skip to content links
+- [responsive images with art direction](https://dev.opera.com/articles/responsive-images/) - linked from Jake Archibald article
 
 ## Author
 
