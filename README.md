@@ -31,7 +31,7 @@ Mobile version
 
 ### Links
 
-- Solution URL: [https://github.com/miranlegin/fem-sunnyside-agency](https://github.com/miranlegin/fem-sunnyside-agency)
+- Solution URL: [https://www.frontendmentor.io/solutions/full-responsive-and-somewhat-accessible-landing-page-RktWdPVjWR](https://www.frontendmentor.io/solutions/full-responsive-and-somewhat-accessible-landing-page-RktWdPVjWR)
 - Live Site URL: [https://frontend-mentor-challenge11.netlify.app/](https://frontend-mentor-challenge11.netlify.app/)
 
 ## My process
