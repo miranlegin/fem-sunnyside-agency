@@ -81,33 +81,34 @@ nav {
 
 .dual {
   background-color: var(--cream);
+
   @media (min-width: $breakpoint1) {
     display: flex;
     flex-direction: row;
-    align-items: center;
 
     &[data-state='reversed'] {
-      direction: rtl;
+      flex-direction: row-reverse;
     }
   }
 
-  picture,
+  picture {
+    flex-basis: 50%;
+  }
+
   img {
     width: 100%;
-    flex-basis: 50%;
+    height: 100%;
+    object-fit: cover;
   }
 }
 
 .dual-content {
   flex-basis: 50%;
-  padding: 4rem 2rem;
+  padding: Max(3rem, 10vw);
 
   @media (min-width: $breakpoint1) {
-    max-width: #{$site-width / 2};
+    align-self: center;
     text-align: left;
-    padding: 0;
-    padding-inline-start: 110px;
-    padding-inline-end: 1.5rem;
   }
 }
 
@@ -143,7 +144,7 @@ nav {
     padding-inline: 1.5rem;
 
     @media (min-width: $breakpoint1) {
-      max-width: 25rem;
+      max-width: Max(25vw, 25rem);
       margin-inline: auto;
     }
   }
