@@ -14,6 +14,7 @@ This is a solution to the [Fylo data storage component challenge on Frontend Men
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
+- [Updates](#updates)
 
 ## Overview
 
@@ -64,6 +65,12 @@ This snippet helped me with css logical properties padding-inline-start and padd
 }
 ```
 
+Fixed strange behaviour on some resolutions
+
+```css
+
+```
+
 Style hover for devices that support it
 
 ```css
@@ -73,7 +80,11 @@ Style hover for devices that support it
 
 ### Continued development
 
-Like in the previous chapter things that can be improved are: setup project from the start as much as i can regarding spacing, font sizes, colors etc. Also some things can be made better, toggle button for mobile navigation, aria roles for footer social icons etc..
+Like in the previous chapter things that can be improved are:
+
+- setup project from the start as much as i can regarding spacing, font sizes, colors etc.
+- toggle button for mobile navigation,
+- aria roles for footer social icons etc..
 
 ### Useful resources
 
@@ -84,3 +95,32 @@ Like in the previous chapter things that can be improved are: setup project from
 ## Author
 
 - Frontend Mentor - [@miranlegin](https://www.frontendmentor.io/profile/miranlegin)
+
+## Updates:
+
+**V1.1**
+
+Thanks to the comment made by Sahand on Frontend Mentor [here](https://www.frontendmentor.io/solutions/full-responsive-and-somewhat-accessible-landing-page-RktWdPVjWR#comment-632a50fa037479dfd70bc8c8) i've made some changes with picture display around breakpoint value that i had before
+
+```css
+.dual img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+```
+
+and also fixed some of the baked in values for font sizes and made them mode fluid with
+
+```css
+font-size: clamp(2rem, 3.3vw, 2.5rem);
+```
+
+Also i've fixed padding around `dual-content` div with this
+
+```css
+.dual-content {
+  flex-basis: 50%;
+  padding: Max(3rem, 10vw);
+}
+```
